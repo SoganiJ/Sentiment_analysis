@@ -44,3 +44,29 @@ WordCloud → Generates word clouds for commonly used words in different emotion
 
 Data Storage & Management:
 CSV Files (Pandas) → Stores processed comments, emotions, and results.
+
+[Social Media APIs (Meta, YouTube, Reddit, X (Twitter))]
+      |
+      V
+[Data Collection Modules (Python Scripts using API libraries)]  (data_collection.py)
+      |
+      V
+[Data Storage (Cloud Storage: AWS S3, Google Cloud Storage, Azure Blob Storage)]
+      |
+      V
+[Data Preprocessing & Sentiment Analysis (Python: Pandas, NLTK/SpaCy, Transformers)]  (sentiment_analysis.py)
+      |
+      V
+[Data Visualization (Python: Matplotlib, Seaborn, Plotly, Dash)] (visualization.py)
+      |
+      V
+[Conclusion Generation (Python: Natural Language Generation - Fine-tuned LLM or Rules-Based)] (conclusion_generation.py)
+      |
+      V
+[Excel Output (Python: Pandas)] (excel_export.py)
+      |
+      V
+[Web Application (Optional: Flask, Django, Streamlit)] (app.py)
+          |
+          V
+      [User Interface (HTML, CSS, JavaScript)]
